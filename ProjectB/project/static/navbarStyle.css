@@ -1,0 +1,48 @@
+
+/*
+the navbar
+*/
+
+ul {
+  list-style-type: none;
+  position: sticky;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background: -webkit-linear-gradient(top, royalblue, white);
+}
+
+/*
+the navbar elements
+*/
+
+li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px 8px;
+  text-decoration: none;
+  float: left;
+}
+
+li a {
+    padding: 7px 8px;
+    color: white;
+    border-radius: 25px;
+}
+
+li a:hover {
+    text-decoration: None;
+    color: white;
+}
+
+li a:focus {
+    text-decoration: None;
+    color: white;
+}
+
+._hover:hover {
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}

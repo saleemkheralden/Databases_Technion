@@ -1,0 +1,163 @@
+{% extends 'topNavbar.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    {% block header %}
+        <link rel="stylesheet" href="{% static '../static/queryStyle.css' %}">
+    {% endblock %}
+
+</head>
+
+<body>
+
+{% block bodyContent %}
+
+<div class="wrapper">
+
+    <table class="mainTable">
+
+        <!-- query 1 -->
+        <tr>
+
+            <td>
+                Query 1 :
+            </td>
+
+            <td class="">
+
+                <table class="table table-hover">
+
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+
+                        <th>
+                            Total Sum
+                        </th>
+                    </tr>
+
+                    {% for e in query1 %}
+                        <tr>
+                            <td>
+                                {{ e.Name }}
+                            </td>
+
+                            <td>
+                                {{ e.TotalSum }}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </table>
+
+            </td>
+
+        </tr>
+        <!-- end query 1 -->
+
+        <!-- query 2 -->
+        <tr>
+
+            <td>
+                Query 2 :
+            </td>
+
+            <td class="col-md-7">
+
+                <table class="table table-hover">
+
+                    <tr>
+                        <th>
+                            Symbol
+                        </th>
+
+                        <th>
+                            Name
+                        </th>
+
+                        <th>
+                            Quantity
+                        </th>
+                    </tr>
+
+                    {% for e in query2 %}
+                        <tr>
+                            <td>
+                                {{ e.Symbol }}
+                            </td>
+
+                            <td>
+                                {{ e.Name }}
+                            </td>
+
+                            <td>
+                                {{ e.Quantity }}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            </td>
+
+        </tr>
+        <!-- end query 2 -->
+
+        <!-- query 3 -->
+        <tr>
+
+            <td>
+                Query 3 :
+            </td>
+
+            <td class="col-md-7">
+                <table class="table table-hover">
+
+                    <tr>
+                        <th>
+                            Date
+                        </th>
+
+                        <th>
+                            Symbol
+                        </th>
+
+                        <th>
+                            Name
+                        </th>
+
+                    </tr>
+
+                    {% for e in query3 %}
+                        <tr>
+                            <td>
+                                {{ e.Date }}
+                            </td>
+
+                            <td>
+                                {{ e.Symbol }}
+                            </td>
+
+                            <td>
+                                {{ e.Name }}
+                            </td>
+
+                        </tr>
+                    {% endfor %}
+                </table>
+            </td>
+
+        </tr>
+        <!-- end query 3 -->
+
+
+    </table>
+
+</div>
+
+{% endblock %}
+
+</body>
+</html>

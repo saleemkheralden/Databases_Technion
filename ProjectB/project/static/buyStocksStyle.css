@@ -1,0 +1,104 @@
+.mainLabel {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: royalblue;
+}
+
+
+form {
+    text-align: center;
+    width: 100%;
+}
+
+
+table {
+    text-align: center;
+    width: 100%;
+}
+
+th {
+    text-align: center;
+}
+
+button {
+    width: 70px;
+    background: cornflowerblue;
+    border: 1px solid transparent;
+    color: white;
+    padding: 3px 10px 3px 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: royalblue;
+    width: 100px;
+    transition: 0.3s;
+}
+
+button:focus {
+    outline: none;
+}
+
+img {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+
+img:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+input {
+    width: 30%;
+    transition: 0.3s;
+}
+
+input:hover {
+    width: 45%;
+    transition: 0.3s;
+}
+
+input:focus {
+    width: 50%;
+    transition: 0.3s;
+}
+
+
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+.success {
+  padding: 20px;
+  background-color: #2fb885; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+

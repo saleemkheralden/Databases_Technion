@@ -1,0 +1,188 @@
+{% extends 'topNavbar.html' %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    {% block header %}
+        <link rel="stylesheet" href="{% static '../static/queryStyle.css' %}">
+    {% endblock %}
+
+</head>
+
+<body>
+
+{% block bodyContent %}
+
+<div class="wrapper">
+
+    <table id="mainTable">
+
+        <!-- strongest pokemons -->
+        <tr>
+
+            <td>
+                Strongest Pokemons that are legendary, by generation :
+            </td>
+
+            <td class="col-md-7">
+
+                <table class="table table-hover">
+
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+
+                        <th>
+                            HP
+                        </th>
+                    </tr>
+
+                    {% for e in strongest %}
+                        <tr>
+                            <td>
+                                {{ e.Name }}
+                            </td>
+
+                            <td>
+                                {{ e.Generation }}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </table>
+
+            </td>
+
+        </tr>
+        <!-- end strongest pokemons -->
+
+        <!-- dominant pokemons -->
+        <tr>
+
+            <td>
+                Dominant Pokemons by type :
+            </td>
+
+            <td class="col-md-7">
+
+                <table class="table table-hover">
+
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+
+                        <th>
+                            Type
+                        </th>
+                    </tr>
+
+                    {% for e in dominant %}
+                        <tr>
+                            <td>
+                                {{ e.Name }}
+                            </td>
+
+                            <td>
+                                {{ e.Type }}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            </td>
+
+        </tr>
+        <!-- end dominant pokemons -->
+
+        <!-- attack threshold -->
+        <tr>
+
+            <td>
+                Type with strongest Pokemon stronger than
+                <label style="color: deeppink">Attack Threshold </label>
+                and more than
+                <label style="color: deeppink">Pokemon Count </label>
+                Pokemons :
+
+                <form method="POST" action="queryResults">
+                    {% csrf_token %}
+                    <label style="color: deeppink" for="atkThreshInput">Attack Threshold : </label>
+                    <input type="number" id="atkThreshInput" name="attackThreshold" required><br>
+                    <label style="color: deeppink" for="pokCount">Pokemon Count : </label>
+                    <input type="number" id="pokCount" name="pokemonCount" required><br>
+                    <button type="submit">Submit</button>
+                </form>
+
+            </td>
+
+            <td class="col-md-7">
+                <table class="table table-hover">
+
+                    <tr>
+                        <th>
+                            Type
+                        </th>
+                    </tr>
+
+                    {% for e in thresh %}
+                        <tr>
+                            <td>
+                                {{ e.Type }}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            </td>
+
+        </tr>
+        <!-- end attack threshold -->
+
+        <!-- instability -->
+        <tr>
+
+            <td>
+                Type with the highest average instability :
+            </td>
+
+            <td class="col-md-7">
+                <table class="table table-hover">
+
+                    <tr>
+                        <th>
+                            Type
+                        </th>
+
+                        <th>
+                            AVG
+                        </th>
+                    </tr>
+
+                    {% for e in max_average %}
+                        <tr>
+                            <td>
+                                {{ e.Type }}
+                            </td>
+
+                            <td>
+                                {{ e.AVG }}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            </td>
+
+        </tr>
+        <!-- end instability -->
+
+    </table>
+
+</div>
+
+{% endblock %}
+
+</body>
+</html>

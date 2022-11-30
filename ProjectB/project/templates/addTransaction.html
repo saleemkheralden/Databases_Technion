@@ -1,0 +1,98 @@
+{% extends 'topNavbar.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    {% block header %}
+    <link rel="stylesheet" href="{% static '../static/addTransactionStyle.css' %}">
+    {% endblock %}
+
+</head>
+<body>
+
+{% block bodyContent %}
+
+{% if flag == True %}
+<div class="success">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  <strong>Success!</strong>
+    Your transaction was processed successfully.
+    <br>
+<!--    total of {{ buyData.total }}.-->
+</div>
+{% elif flag == False %}
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  <strong>Failure!</strong>
+    Unfortunately we couldn't process your transaction.
+    <br>
+    {% for e in reason %}
+    <br>
+    {{ e }}
+    {% endfor %}
+
+</div>
+{% endif %}
+
+<label for="transactionForm" class="mainLabel"> Add New Transaction</label>
+
+<form id="transactionForm" method="POST" action="addTransaction">
+    {% csrf_token %}
+    <table class="table">
+        <tr>
+
+            <td>
+                <label for="transactionId">ID : </label>
+            </td>
+
+            <td>
+                <input type="text" maxlength="9" minlength="9" id="transactionId" name="transactionId" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="transactionSum">Transaction Sum : </label>
+            </td>
+
+            <td>
+                <input type="number" id="transactionSum" name="transactionSum" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <button type="submit">Submit</button>
+            </td>
+        </tr>
+    </table>
+</form>
+
+{% if transactions %}
+
+<table class="table">
+
+    <tr>
+        <th>Date</th>
+        <th>ID</th>
+        <th>Transaction Sum</th>
+    </tr>
+
+    {% for e in transactions %}
+    <tr>
+        <td>{{ e.tDate }}</td>
+        <td>{{ e.ID }}</td>
+        <td>{{ e.TQuantity }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endif %}
+
+{% endblock %}
+
+</body>
+</html>

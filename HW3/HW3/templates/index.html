@@ -1,0 +1,44 @@
+{% extends 'topNavbar.html' %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    {% block header %}
+
+    <link rel="stylesheet" href="{% static '../static/indexStyle.css' %}">
+
+    {% endblock %}
+
+</head>
+
+<body>
+
+{% block bodyContent %}
+
+    <div class="wrapper">
+
+        <h1 class="title">Pokemon League Website</h1>
+
+        <div class="imgDiv">
+            <img src="{% static '../static/pokemons.jpg' %}" alt="pokemon">
+        </div>
+
+        <div class="aboutText">
+            Welcome to the Official Pokemon League - Haifa
+            <br>
+            This website is part of our Green Campaign
+            <br>
+            <label style="color: hotpink">
+                By Bayan and Saleem
+            </label>
+        </div>
+    </div>
+
+{% endblock %}
+
+</body>
+</html>

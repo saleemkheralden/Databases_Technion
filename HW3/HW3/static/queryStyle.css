@@ -1,0 +1,41 @@
+
+.wrapper {
+    margin: 10px;
+}
+
+td {
+    padding-bottom: 45px;
+}
+
+button {
+    width: 70px;
+    background: cornflowerblue;
+    border: 1px solid transparent;
+    color: white;
+    padding: 3px 10px 3px 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: royalblue;
+    width: 100px;
+    transition: 0.3s;
+}
+
+button:focus {
+    outline: none;
+}
+
+form {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,114 @@
+{% extends 'topNavbar.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    {% block header %}
+    <link rel="stylesheet" href="{% static '../static/buyStocksStyle.css' %}">
+    {% endblock %}
+
+</head>
+<body>
+
+
+
+
+
+{% block bodyContent %}
+<!--{{ buyData }}-->
+{% if flag == True %}
+<div class="success">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  <strong>Success!</strong>
+    Your request to buy {{ buyData.quantity }} {{ buyData.company }} stocks for {{ buyData.latestPrice }} each, was processed successfully.
+    <br>
+    for total of {{ buyData.total }}.
+</div>
+{% elif flag == False %}
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  <strong>Failure!</strong>
+    Unfortunately we couldn't process your request to buy {{ buyData.quantity }} {{ buyData.company }} stocks for {{ buyData.latestPrice }} each.
+    <br>
+    for total of {{ buyData.total }}.
+    {% for e in reason %}
+    <br>
+    {{ e }}
+    {% endfor %}
+
+</div>
+{% endif %}
+
+<label for="transactionForm" class="mainLabel"> Buy new Stock</label>
+
+<form id="transactionForm" method="POST" action="buyStocks">
+    {% csrf_token %}
+    <table class="table">
+        <tr>
+            <td>
+                <label for="stockID"> ID : </label>
+            </td>
+
+            <td>
+                <input type="text" maxlength="9" minlength="9" id="stockID" name="id" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="company">Company : </label>
+            </td>
+
+            <td>
+                <input type="text" id="company" name="company" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="Quantity">Quantity : </label>
+            </td>
+
+            <td>
+                <input type="number" id="Quantity" name="quantity" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <button type="submit">Submit</button>
+            </td>
+        </tr>
+    </table>
+</form>
+
+{% if stocks %}
+
+<table class="table">
+
+    <tr>
+        <th>Date</th>
+        <th>Investor ID</th>
+        <th>Company</th>
+        <th>Payed</th>
+    </tr>
+
+    {% for e in stocks %}
+    <tr>
+        <td>{{ e.Date }}</td>
+        <td>{{ e.InvestorID }}</td>
+        <td>{{ e.Company }}</td>
+        <td>{{ e.Payed }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endif %}
+
+{% endblock %}
+
+</body>
+</html>

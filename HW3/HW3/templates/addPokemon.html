@@ -1,0 +1,148 @@
+{% extends 'topNavbar.html' %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    {% block header %}
+        <link rel="stylesheet" href="{% static '../static/addPokemonStyle.css' %}">
+    {% endblock %}
+
+</head>
+<body>
+
+{% block bodyContent %}
+
+    <form method="POST" action="addPokemon">
+        {% csrf_token %}
+
+        <table class="table">
+
+            <tr>
+                <td>
+                    <label for="pokemonName">Name : </label>
+                </td>
+
+                <td>
+                    <input type="text" maxlength="50" minlength="2" id="pokemonName" name="pokemonName" required>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="pokemonType">Type : </label>
+                </td>
+
+                <td>
+                    <input type="text" maxlength="50" id="pokemonType" name="pokemonType" required>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="pokemonGeneration">Generation : </label>
+                </td>
+
+                <td>
+                    <input type="number" max="6" min="1" id="pokemonGeneration" name="pokemonGeneration" required>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="pokemonLegendary">Legendary : </label>
+                </td>
+
+                <td>
+                    <input type="checkbox" id="pokemonLegendary" name="pokemonLegendary">
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="pokemonHP">HP : </label>
+                </td>
+
+                <td>
+                    <input type="number" max="300" min="1" id="pokemonHP" name="pokemonHP" required>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="pokemonAttack">Attack : </label>
+                </td>
+
+                <td>
+                    <input type="number" max="300" min="1" id="pokemonAttack" name="pokemonAttack" required>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="pokemonDefense">Defense : </label>
+                </td>
+
+                <td>
+                    <input type="number" max="300" min="1" id="pokemonDefense" name="pokemonDefense" required>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <button type="submit">ADD</button>
+                </td>
+            </tr>
+
+            {% if flag == '1' %}
+                <tr>
+                    <td colspan="2">
+
+                        <span>
+                           <span>
+                               <img src="https://img.icons8.com/fluency/48/000000/ok.png" alt="ok"
+                                    style="width: 30px; height: 30px;"/>
+                           </span>
+                            pokemon added successfully!
+                       </span>
+
+                    </td>
+                </tr>
+
+            {% elif flag == '-1' %}
+                <tr>
+                    <td colspan="2">
+
+                        <span>
+                           <span>
+                               <img src="https://img.icons8.com/fluency/48/000000/cancel.png" alt="ok"
+                                    style="width: 30px; height: 30px;"/>
+                           </span>
+                            couldn't add pokemon!
+                       </span>
+
+                    </td>
+                </tr>
+
+
+            {% endif %}
+
+        </table>
+
+
+    </form>
+
+{% endblock %}
+
+</body>
+</html>

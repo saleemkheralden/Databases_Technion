@@ -1,0 +1,506 @@
+Symbol,Sector,Location,Founded
+MMM,Industrials,Minnesota,1902
+ABT,Health Care,Illinois,1888
+ABBV,Health Care,Illinois,2013
+ABMD,Health Care,Massachusetts,1981
+ACN,Information Technology,Ireland,1989
+ATVI,Communication Services,California,2008
+ADBE,Information Technology,California,1982
+AMD,Information Technology,California,1969
+AAP,Consumer Discretionary,North Carolina,1932
+AES,Utilities,Virginia,1981
+AFL,Financials,Georgia,1955
+A,Health Care,California,1999
+APD,Materials,Pennsylvania,1940
+AKAM,Information Technology,Massachusetts,1998
+ALK,Industrials,Washington,1985
+ALB,Materials,North Carolina,1994
+ARE,Real Estate,California,1994
+ALGN,Health Care,California,1997
+ALLE,Industrials,New York,1908
+LNT,Utilities,Wisconsin,1917
+ALL,Financials,Illinois,1931
+GOOGL,Communication Services,California,1998
+GOOG,Communication Services,California,1998
+MO,Consumer Staples,Virginia,1985
+AMZN,Consumer Discretionary,Washington,1994
+AMCR,Materials,Bristol,2019
+AEE,Utilities,Missouri,1902
+AAL,Industrials,Texas,1934
+AEP,Utilities,Ohio,1906
+AXP,Financials,New York,1850
+AIG,Financials,New York,1919
+AMT,Real Estate,Massachusetts,1995
+AWK,Utilities,New Jersey,1886
+AMP,Financials,Minnesota,1894
+ABC,Health Care,Pennsylvania,1985
+AME,Industrials,Pennsylvania,1930
+AMGN,Health Care,California,1980
+APH,Information Technology,Connecticut,1932
+ADI,Information Technology,Massachusetts,1965
+ANSS,Information Technology,Pennsylvania,1969
+ANTM,Health Care,Indiana,2014
+AON,Financials,UK,1982
+AOS,Industrials,Wisconsin,1916
+APA,Energy,Texas,1954
+AAPL,Information Technology,California,1977
+AMAT,Information Technology,California,1967
+APTV,Consumer Discretionary,Ireland,1994
+ADM,Consumer Staples,Illinois,1902
+ANET,Information Technology,California,2004
+AJG,Financials,Illinois,1927
+AIZ,Financials,New York,1892
+T,Communication Services,Texas,1983
+ATO,Utilities,Texas,1906
+ADSK,Information Technology,California,1982
+ADP,Information Technology,New Jersey,1949
+AZO,Consumer Discretionary,Tennessee,1979
+AVB,Real Estate,Virginia,1978
+AVY,Materials,California,1990
+BKR,Energy,Texas,2017
+BLL,Materials,Colorado,1880
+BAC,Financials,North Carolina,1998
+BBWI,Consumer Discretionary,Ohio,1963
+BAX,Health Care,Illinois,1931
+BDX,Health Care,New Jersey,1897
+BRK.B,Financials,Nebraska,1839
+BBY,Consumer Discretionary,Minnesota,1966
+BIO,Health Care,California,1952
+TECH,Health Care,Minnesota,1976
+BIIB,Health Care,Massachusetts,1978
+BLK,Financials,New York,1988
+BK,Financials,New York,1784
+BA,Industrials,Illinois,1916
+BKNG,Consumer Discretionary,Connecticut,1996
+BWA,Consumer Discretionary,Michigan,1880
+BXP,Real Estate,Massachusetts,1970
+BSX,Health Care,Massachusetts,1979
+BMY,Health Care,New York,1989
+AVGO,Information Technology,California,1961
+BR,Information Technology,New York,1962
+BRO,Financials,Florida,1939
+BF.B,Consumer Staples,Kentucky,1870
+CHRW,Industrials,Minnesota,1905
+CDNS,Information Technology,California,1988
+CZR,Consumer Discretionary,Nevada,1973
+CPB,Consumer Staples,New Jersey,1869
+COF,Financials,Virginia,1994
+CAH,Health Care,Ohio,1971
+KMX,Consumer Discretionary,Virginia,1993
+CCL,Consumer Discretionary,Florida,1972
+CARR,Industrials,Florida,2020
+CTLT,Health Care,New Jersey,2007
+CAT,Industrials,Illinois,1925
+CBOE,Financials,Illinois,1973
+CBRE,Real Estate,Texas,1906
+CDW,Information Technology,Illinois,1984
+CE,Materials,Texas,1918
+CNC,Health Care,Missouri,1984
+CNP,Utilities,Texas,1882
+CDAY,Information Technology,Minnesota,1992
+CERN,Health Care,Missouri,1979
+CF,Materials,Illinois,1946
+CRL,Health Care,Massachusetts,1947
+SCHW,Financials,Texas,1971
+CHTR,Communication Services,Connecticut,1993
+CVX,Energy,California,1879
+CMG,Consumer Discretionary,California,1993
+CB,Financials,Switzerland,1985
+CHD,Consumer Staples,New Jersey,1847
+CI,Health Care,Connecticut,1982
+CINF,Financials,Ohio,1950
+CTAS,Industrials,Ohio,1929
+CSCO,Information Technology,California,1984
+C,Financials,New York,1998
+CFG,Financials,Rhode Island,1828
+CTXS,Information Technology,Florida,1989
+CLX,Consumer Staples,California,1913
+CME,Financials,Illinois,1848
+CMS,Utilities,Michigan,1886
+KO,Consumer Staples,Georgia,1886
+CTSH,Information Technology,New Jersey,1994
+CL,Consumer Staples,New York,1806
+CMCSA,Communication Services,Pennsylvania,1963
+CMA,Financials,Texas,1849
+CAG,Consumer Staples,Illinois,1919
+COP,Energy,Texas,2002
+ED,Utilities,New York,1823
+STZ,Consumer Staples,New York,1945
+COO,Health Care,California,1958
+CPRT,Industrials,Texas,1982
+GLW,Information Technology,New York,1851
+CTVA,Materials,Delaware,2019
+COST,Consumer Staples,Washington,1976
+CTRA,Energy,Texas,2021
+CCI,Real Estate,Texas,1994
+CSX,Industrials,Florida,1980
+CMI,Industrials,Indiana,1919
+CVS,Health Care,Rhode Island,1996
+DHI,Consumer Discretionary,Texas,1978
+DHR,Health Care,Washington,1969
+DRI,Consumer Discretionary,Florida,1938
+DVA,Health Care,Colorado,1979
+DE,Industrials,Illinois,1837
+DAL,Industrials,Georgia,1929
+XRAY,Health Care,North Carolina,2016
+DVN,Energy,Oklahoma,1971
+DXCM,Health Care,California,1999
+FANG,Energy,Texas,2007
+DLR,Real Estate,Texas,2004
+DFS,Financials,Illinois,1985
+DISCA,Communication Services,New York,1985
+DISCK,Communication Services,New York,1985
+DISH,Communication Services,Colorado,1980
+DG,Consumer Discretionary,Tennessee,1939
+DLTR,Consumer Discretionary,Virginia,1986
+D,Utilities,Virginia,1983
+DPZ,Consumer Discretionary,Michigan,1960
+DOV,Industrials,Illinois,1955
+DOW,Materials,Michigan,2019
+DTE,Utilities,Michigan,1995
+DUK,Utilities,North Carolina,1904
+DRE,Real Estate,Indiana,1972
+DD,Materials,Delaware,2017
+DXC,Information Technology,Virginia,2017
+EMN,Materials,Tennessee,1920
+ETN,Industrials,Ireland,1911
+EBAY,Consumer Discretionary,California,1995
+ECL,Materials,Minnesota,1923
+EIX,Utilities,California,1886
+EW,Health Care,California,1958
+EA,Communication Services,California,1982
+EMR,Industrials,Missouri,1890
+ENPH,Information Technology,California,2006
+ETR,Utilities,Louisiana,1913
+EOG,Energy,Texas,1999
+EFX,Industrials,Georgia,1899
+EQIX,Real Estate,California,1998
+EQR,Real Estate,Illinois,1969
+ESS,Real Estate,California,1971
+EL,Consumer Staples,New York,1946
+ETSY,Consumer Discretionary,New York,2005
+EVRG,Utilities,Missouri,1909
+ES,Utilities,Connecticut,1966
+RE,Financials,Bermuda,1973
+EXC,Utilities,Illinois,2000
+EXPE,Consumer Discretionary,Washington,1996
+EXPD,Industrials,Washington,1979
+EXR,Real Estate,Utah,1977
+XOM,Energy,Texas,1999
+FFIV,Information Technology,Washington,1996
+FAST,Industrials,Minnesota,1967
+FRT,Real Estate,Maryland,1962
+FDX,Industrials,Tennessee,1971
+FIS,Information Technology,Florida,1968
+FITB,Financials,Ohio,1858
+FE,Utilities,Ohio,1997
+FRC,Financials,California,1985
+FISV,Information Technology,Wisconsin,1984
+FLT,Information Technology,Georgia,2000
+FMC,Materials,Pennsylvania,1883
+F,Consumer Discretionary,Michigan,1903
+FTNT,Information Technology,California,2000
+FTV,Industrials,Washington,2016
+FBHS,Industrials,Illinois,2011
+FOXA,Communication Services,New York,2019
+FOX,Communication Services,New York,2019
+BEN,Financials,California,1947
+FCX,Materials,Arizona,1912
+GPS,Consumer Discretionary,California,1969
+GRMN,Consumer Discretionary,Switzerland,1989
+IT,Information Technology,Connecticut,1979
+GNRC,Industrials,Wisconsin,1959
+GD,Industrials,Virginia,1899
+GE,Industrials,Massachusetts,1892
+GIS,Consumer Staples,Minnesota,1856
+GM,Consumer Discretionary,Michigan,1908
+GPC,Consumer Discretionary,Georgia,1925
+GILD,Health Care,California,1987
+GL,Financials,Texas,1900
+GPN,Information Technology,Georgia,2000
+GS,Financials,New York,1869
+GWW,Industrials,Illinois,1927
+HAL,Energy,Texas,1919
+HBI,Consumer Discretionary,North Carolina,2000
+HIG,Financials,Connecticut,1810
+HAS,Consumer Discretionary,Rhode Island,1923
+HCA,Health Care,Tennessee,1968
+PEAK,Real Estate,California,1985
+HSIC,Health Care,New York,1932
+HSY,Consumer Staples,Pennsylvania,1894
+HES,Energy,New York,1919
+HPE,Information Technology,Texas,2015
+HLT,Consumer Discretionary,Virginia,1919
+HOLX,Health Care,Massachusetts,1985
+HD,Consumer Discretionary,Georgia,1978
+HON,Industrials,North Carolina,1906
+HRL,Consumer Staples,Minnesota,1891
+HST,Real Estate,Maryland,1993
+HWM,Industrials,Pennsylvania,2016
+HPQ,Information Technology,California,1939
+HUM,Health Care,Kentucky,1961
+HBAN,Financials,Ohio,1866
+HII,Industrials,Virginia,2011
+IEX,Industrials,Illinois,1988
+IDXX,Health Care,Maine,1983
+INFO,Industrials,England,1959
+ITW,Industrials,Illinois,1912
+ILMN,Health Care,California,1998
+INCY,Health Care,Delaware,1991
+IR,Industrials,Wisconsin,1859
+INTC,Information Technology,California,1968
+ICE,Financials,Georgia,2000
+IBM,Information Technology,New York,1911
+IP,Materials,Tennessee,1898
+IPG,Communication Services,New York,1961
+IFF,Materials,New York,1958
+INTU,Information Technology,California,1983
+ISRG,Health Care,California,1995
+IVZ,Financials,Georgia,1935
+IPGP,Information Technology,Massachusetts,1990
+IQV,Health Care,North Carolina,1982
+IRM,Real Estate,Massachusetts,1951
+JKHY,Information Technology,Missouri,1976
+J,Industrials,Texas,1947
+JBHT,Industrials,Arkansas,1961
+SJM,Consumer Staples,Ohio,1897
+JNJ,Health Care,New Jersey,1886
+JCI,Industrials,Ireland,1885
+JPM,Financials,New York,2000
+JNPR,Information Technology,California,1996
+KSU,Industrials,Missouri,1887
+K,Consumer Staples,Michigan,1906
+KEY,Financials,Ohio,1825
+KEYS,Information Technology,California,2014
+KMB,Consumer Staples,Texas,1872
+KIM,Real Estate,New York,1958
+KMI,Energy,Texas,1997
+KLAC,Information Technology,California,1975
+KHC,Consumer Staples,Illinois,2015
+KR,Consumer Staples,Ohio,1883
+LHX,Industrials,Florida,2019
+LH,Health Care,North Carolina,1978
+LRCX,Information Technology,California,1980
+LW,Consumer Staples,Idaho,2016
+LVS,Consumer Discretionary,Nevada,1988
+LEG,Consumer Discretionary,Missouri,1883
+LDOS,Industrials,Virginia,1969
+LEN,Consumer Discretionary,Florida,1954
+LLY,Health Care,Indiana,1876
+LNC,Financials,Pennsylvania,1905
+LIN,Materials,England,1879
+LYV,Communication Services,California,2010
+LKQ,Consumer Discretionary,Illinois,1998
+LMT,Industrials,Maryland,1995
+L,Financials,New York,1959
+LOW,Consumer Discretionary,North Carolina,1904
+LUMN,Communication Services,Louisiana,1983
+LYB,Materials,Netherlands,2007
+MTB,Financials,New York,1856
+MRO,Energy,Texas,1887
+MPC,Energy,Ohio,2009
+MKTX,Financials,New York,2000
+MAR,Consumer Discretionary,Maryland,1927
+MMC,Financials,New York,1905
+MLM,Materials,North Carolina,1993
+MAS,Industrials,Michigan,1929
+MA,Information Technology,New York,1966
+MTCH,Communication Services,Texas,1986
+MKC,Consumer Staples,Maryland,1889
+MCD,Consumer Discretionary,Illinois,1940
+MCK,Health Care,Texas,1833
+MDT,Health Care,Ireland,1949
+MRK,Health Care,New Jersey,1891
+FB,Communication Services,California,2004
+MET,Financials,New York,1868
+MTD,Health Care,Ohio,1945
+MGM,Consumer Discretionary,Nevada,1986
+MCHP,Information Technology,Arizona,1989
+MU,Information Technology,Idaho,1978
+MSFT,Information Technology,Washington,1975
+MAA,Real Estate,Tennessee,1977
+MRNA,Health Care,Massachusetts,2010
+MHK,Consumer Discretionary,Georgia,1878
+TAP,Consumer Staples,Illinois,2005
+MDLZ,Consumer Staples,Illinois,2012
+MPWR,Information Technology,Washington,1997
+MNST,Consumer Staples,California,2012
+MCO,Financials,New York,1909
+MS,Financials,New York,1935
+MOS,Materials,Florida,2004
+MSI,Information Technology,Illinois,1928
+MSCI,Financials,New York,1969
+NDAQ,Financials,New York,1971
+NTAP,Information Technology,California,1992
+NFLX,Communication Services,California,1997
+NWL,Consumer Discretionary,Georgia,1903
+NEM,Materials,Colorado,1921
+NWSA,Communication Services,New York,2013
+NWS,Communication Services,New York,2013
+NEE,Utilities,Florida,1984
+NLSN,Industrials,New York,1923
+NKE,Consumer Discretionary,Oregon,1964
+NI,Utilities,Indiana,1912
+NSC,Industrials,Virginia,1881
+NTRS,Financials,Illinois,1889
+NOC,Industrials,Virginia,1994
+NLOK,Information Technology,Arizona,1982
+NCLH,Consumer Discretionary,Florida,2011
+NRG,Utilities,Texas,1992
+NUE,Materials,North Carolina,1940
+NVDA,Information Technology,California,1993
+NVR,Consumer Discretionary,Virginia,1980
+NXPI,Information Technology,Netherlands,1953
+ORLY,Consumer Discretionary,Missouri,1957
+OXY,Energy,Texas,1920
+ODFL,Industrials,North Carolina,1934
+OMC,Communication Services,New York,1986
+OKE,Energy,Oklahoma,1906
+ORCL,Information Technology,Texas,1977
+OGN,Health Care,New Jersey,2021
+OTIS,Industrials,Connecticut,2020
+PCAR,Industrials,Washington,1905
+PKG,Materials,Illinois,1959
+PH,Industrials,Ohio,1917
+PAYX,Information Technology,New York,1971
+PAYC,Information Technology,Oklahoma,1998
+PYPL,Information Technology,California,1998
+PENN,Consumer Discretionary,Pennsylvania,1972
+PNR,Industrials,England,1966
+PBCT,Financials,Connecticut,1842
+PEP,Consumer Staples,New York,1898
+PKI,Health Care,Massachusetts,1937
+PFE,Health Care,New York,1849
+PM,Consumer Staples,New York,2008
+PSX,Energy,Texas,2012
+PNW,Utilities,Arizona,1985
+PXD,Energy,Texas,1997
+PNC,Financials,Pennsylvania,1845
+POOL,Consumer Discretionary,Louisiana,1993
+PPG,Materials,Pennsylvania,1883
+PPL,Utilities,Pennsylvania,1920
+PFG,Financials,Iowa,1879
+PG,Consumer Staples,Ohio,1837
+PGR,Financials,Ohio,1937
+PLD,Real Estate,California,1983
+PRU,Financials,New Jersey,1875
+PTC,Information Technology,Massachusetts,1985
+PEG,Utilities,New Jersey,1903
+PSA,Real Estate,California,1972
+PHM,Consumer Discretionary,Georgia,1956
+PVH,Consumer Discretionary,New York,1881
+QRVO,Information Technology,North Carolina,2015
+PWR,Industrials,Texas,1997
+QCOM,Information Technology,California,1985
+DGX,Health Care,New Jersey,1967
+RL,Consumer Discretionary,New York,1967
+RJF,Financials,Florida,1962
+RTX,Industrials,Massachusetts,1922
+O,Real Estate,California,1969
+REG,Real Estate,Florida,1963
+REGN,Health Care,New York,1988
+RF,Financials,Alabama,1971
+RSG,Industrials,Arizona,1998
+RMD,Health Care,California,1989
+RHI,Industrials,California,1948
+ROK,Industrials,Wisconsin,1903
+ROL,Industrials,Georgia,1948
+ROP,Industrials,Florida,1981
+ROST,Consumer Discretionary,California,1982
+RCL,Consumer Discretionary,Florida,1997
+SPGI,Financials,New York,1917
+CRM,Information Technology,California,1999
+SBAC,Real Estate,Florida,1989
+SLB,Energy,Netherlands,1926
+STX,Information Technology,Ireland,1979
+SEE,Materials,North Carolina,1960
+SRE,Utilities,California,1998
+NOW,Information Technology,California,2003
+SHW,Materials,Ohio,1866
+SPG,Real Estate,Indiana,2003
+SWKS,Information Technology,Massachusetts,2002
+SNA,Industrials,Wisconsin,1920
+SO,Utilities,Georgia,1945
+LUV,Industrials,Texas,1967
+SWK,Industrials,Connecticut,1843
+SBUX,Consumer Discretionary,Washington,1971
+STT,Financials,Massachusetts,1792
+STE,Health Care,Ireland,1985
+SYK,Health Care,Michigan,1941
+SIVB,Financials,California,1983
+SYF,Financials,Connecticut,2003
+SNPS,Information Technology,California,1986
+SYY,Consumer Staples,Texas,1969
+TMUS,Communication Services,Washington,1994
+TROW,Financials,Maryland,1937
+TTWO,Communication Services,New York,1993
+TPR,Consumer Discretionary,New York,2017
+TGT,Consumer Discretionary,Minnesota,1902
+TEL,Information Technology,Switzerland,2007
+TDY,Industrials,California,1960
+TFX,Health Care,Pennsylvania,1943
+TER,Information Technology,Massachusetts,1960
+TSLA,Consumer Discretionary,California,2003
+TXN,Information Technology,Texas,1930
+TXT,Industrials,Rhode Island,1923
+TMO,Health Care,Massachusetts,2006
+TJX,Consumer Discretionary,Massachusetts,1987
+TSCO,Consumer Discretionary,Tennessee,1938
+TT,Industrials,Ireland,1871
+TDG,Industrials,Ohio,1993
+TRV,Financials,New York,1853
+TRMB,Information Technology,California,1978
+TFC,Financials,North Carolina,1872
+TWTR,Communication Services,California,2006
+TYL,Information Technology,Texas,1966
+TSN,Consumer Staples,Arkansas,1935
+UDR,Real Estate,Colorado,1972
+ULTA,Consumer Discretionary,Illinois,1990
+USB,Financials,Minnesota,1968
+UAA,Consumer Discretionary,Maryland,1996
+UA,Consumer Discretionary,Maryland,1996
+UNP,Industrials,Nebraska,1862
+UAL,Industrials,Illinois,1967
+UNH,Health Care,Minnesota,1977
+UPS,Industrials,Georgia,1907
+URI,Industrials,Connecticut,1997
+UHS,Health Care,Pennsylvania,1979
+VLO,Energy,Texas,1980
+VTR,Real Estate,Illinois,1998
+VRSN,Information Technology,Virginia,1995
+VRSK,Industrials,New Jersey,1971
+VZ,Communication Services,New York,1983
+VRTX,Health Care,Massachusetts,1989
+VFC,Consumer Discretionary,Colorado,1899
+VIAC,Communication Services,New York,2019
+VTRS,Health Care,Pennsylvania,1961
+V,Information Technology,California,1958
+VNO,Real Estate,New York,1982
+VMC,Materials,Alabama,1909
+WRB,Financials,Connecticut,1967
+WAB,Industrials,Pennsylvania,1999
+WMT,Consumer Staples,Arkansas,1962
+WBA,Consumer Staples,Illinois,2014
+DIS,Communication Services,California,1923
+WM,Industrials,Texas,1968
+WAT,Health Care,Massachusetts,1958
+WEC,Utilities,Wisconsin,1896
+WFC,Financials,California,1852
+WELL,Real Estate,Ohio,1970
+WST,Health Care,Pennsylvania,1923
+WDC,Information Technology,California,1970
+WU,Information Technology,Colorado,1851
+WRK,Materials,Georgia,2015
+WY,Real Estate,Washington,1900
+WHR,Consumer Discretionary,Michigan,1911
+WMB,Energy,Oklahoma,1908
+WLTW,Financials,England,2016
+WYNN,Consumer Discretionary,Nevada,2002
+XEL,Utilities,Minnesota,1909
+XLNX,Information Technology,California,1984
+XYL,Industrials,New York,2011
+YUM,Consumer Discretionary,Kentucky,1997
+ZBRA,Information Technology,Illinois,1969
+ZBH,Health Care,Indiana,1927
+ZION,Financials,Utah,1873
+ZTS,Health Care,New Jersey,1952

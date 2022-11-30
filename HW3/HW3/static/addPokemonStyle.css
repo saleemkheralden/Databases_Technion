@@ -1,0 +1,57 @@
+form {
+    text-align: center;
+    width: 100%;
+}
+
+
+table {
+    width: 100%;
+}
+
+
+button {
+    width: 70px;
+    background: cornflowerblue;
+    border: 1px solid transparent;
+    color: white;
+    padding: 3px 10px 3px 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: royalblue;
+    width: 100px;
+    transition: 0.3s;
+}
+
+button:focus {
+    outline: none;
+}
+
+img {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+
+img:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+input {
+    width: 30%;
+        transition: 0.3s;
+}
+
+input:hover {
+    width: 45%;
+        transition: 0.3s;
+}
+
+input:focus {
+    width: 50%;
+        transition: 0.3s;
+}
+

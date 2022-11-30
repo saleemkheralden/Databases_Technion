@@ -1,0 +1,25 @@
+
+
+.title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.aboutText {
+    float: right;
+    width: 50%;
+    font-size: large;
+
+}
+
+.imgDiv {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+img {
+    width: 70%;
+    height: auto;
+}
